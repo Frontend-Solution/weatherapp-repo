@@ -39,7 +39,6 @@ async function checkWeather(city) {
 
   switch (weather_data.weather[0].main) {
     case 'Clouds':
-<<<<<<< HEAD
       weather_img.src = "../weather-app/weatherimg/sunny_cloud-removebg-preview.png"; break;
 
     case 'Sunny':
@@ -56,7 +55,6 @@ async function checkWeather(city) {
 
     case 'Clear':
       weather_img.src = "../weather-app/weatherimg/sunny-removebg-preview.png"; break;
-=======
       weather_img.src = "../weather/weatherimg/sunny_cloud-removebg-preview.png"; break;
 
     case 'Sunny':
@@ -73,7 +71,6 @@ async function checkWeather(city) {
 
     case 'Clear':
       weather_img.src = "../weather/weatherimg/sunny-removebg-preview.png"; break;
->>>>>>> ade2a64d98ed80ad6f1fe28653a0472d9b1eb7de
 
   }
 }

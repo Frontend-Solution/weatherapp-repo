@@ -39,22 +39,46 @@ async function checkWeather(city) {
 
   switch (weather_data.weather[0].main) {
     case 'Clouds':
+<<<<<<< HEAD
+      weather_img.src = "./weather/weatherimg/sunny_cloud-removebg-preview.png"; break;
+=======
       weather_img.src = "/weatherimg/sunny_cloud-removebg-preview.png"; break;
+>>>>>>> 7a38a33f5b3def76c7471de6dbc07d5049106da7
 
     case 'Sunny':
+<<<<<<< HEAD
+      weather_img.src = "./weather/weatherimg/sunny-removebg-preview.png"; break;
+=======
       weather_img.src = "/weatherimg/sunny-removebg-preview.png"; break;
+>>>>>>> 7a38a33f5b3def76c7471de6dbc07d5049106da7
 
     case 'Rain':
+<<<<<<< HEAD
+      weather_img.src = "./weather/weatherimg/cloud_rain-removebg-preview.png"; break;
+=======
       weather_img.src = "/weatherimg/cloud_rain-removebg-preview.png"; break;
+>>>>>>> 7a38a33f5b3def76c7471de6dbc07d5049106da7
 
     case 'Snow':
+<<<<<<< HEAD
+      weather_img.src = "./weather/weatherimg/ssnow-removebg-preview.png"; break;
+=======
       weather_img.src = "/weatherimg/ssnow-removebg-preview.png"; break;
+>>>>>>> 7a38a33f5b3def76c7471de6dbc07d5049106da7
 
     case 'Mist':
+<<<<<<< HEAD
+      weather_img.src = "./weather/weatherimg/drop-removebg-preview.png"; break;
+=======
       weather_img.src = "/weatherimg/drop-removebg-preview.png"; break;
+>>>>>>> 7a38a33f5b3def76c7471de6dbc07d5049106da7
 
     case 'Clear':
+<<<<<<< HEAD
+      weather_img.src = "./weather/weatherimg/sunny-removebg-preview.png"; break;
+=======
       weather_img.src = "/weatherimg/sunny-removebg-preview.png"; break;
+>>>>>>> 7a38a33f5b3def76c7471de6dbc07d5049106da7
 
   }
 }

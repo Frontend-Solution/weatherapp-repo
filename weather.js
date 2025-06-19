@@ -26,60 +26,31 @@ async function checkWeather(city) {
   location_not_found.style.display = "none";
   weather_body.style.display = "flex";
 
-
   temperature.innerHTML = `${Math.round(weather_data.main.temp - 273.15)}°C`;
-
   description.innerHTML = `${weather_data.weather[0].description}`;
 
   humidity.innerHTML = `${weather_data.main.humidity}%`;
-
   wind_speed.innerHTML = `${weather_data.wind.speed}Km/H`;
-
 
 
   switch (weather_data.weather[0].main) {
     case 'Clouds':
-<<<<<<< HEAD
-      weather_img.src = "./weather/weatherimg/sunny_cloud-removebg-preview.png"; break;
-=======
-      weather_img.src = "/weatherimg/sunny_cloud-removebg-preview.png"; break;
->>>>>>> 7a38a33f5b3def76c7471de6dbc07d5049106da7
+      weather_img.src = "./weatherimg/sunny_cloud-removebg-preview.png"; break;
 
     case 'Sunny':
-<<<<<<< HEAD
-      weather_img.src = "./weather/weatherimg/sunny-removebg-preview.png"; break;
-=======
-      weather_img.src = "/weatherimg/sunny-removebg-preview.png"; break;
->>>>>>> 7a38a33f5b3def76c7471de6dbc07d5049106da7
+      weather_img.src = "./weatherimg/sunny-removebg-preview.png"; break;
 
     case 'Rain':
-<<<<<<< HEAD
-      weather_img.src = "./weather/weatherimg/cloud_rain-removebg-preview.png"; break;
-=======
-      weather_img.src = "/weatherimg/cloud_rain-removebg-preview.png"; break;
->>>>>>> 7a38a33f5b3def76c7471de6dbc07d5049106da7
+      weather_img.src = "./weatherimg/cloud_rain-removebg-preview.png"; break;
 
     case 'Snow':
-<<<<<<< HEAD
-      weather_img.src = "./weather/weatherimg/ssnow-removebg-preview.png"; break;
-=======
-      weather_img.src = "/weatherimg/ssnow-removebg-preview.png"; break;
->>>>>>> 7a38a33f5b3def76c7471de6dbc07d5049106da7
+      weather_img.src = "./weatherimg/ssnow-removebg-preview.png"; break;
 
     case 'Mist':
-<<<<<<< HEAD
-      weather_img.src = "./weather/weatherimg/drop-removebg-preview.png"; break;
-=======
-      weather_img.src = "/weatherimg/drop-removebg-preview.png"; break;
->>>>>>> 7a38a33f5b3def76c7471de6dbc07d5049106da7
+      weather_img.src = "./weatherimg/drop-removebg-preview.png"; break;
 
     case 'Clear':
-<<<<<<< HEAD
-      weather_img.src = "./weather/weatherimg/sunny-removebg-preview.png"; break;
-=======
-      weather_img.src = "/weatherimg/sunny-removebg-preview.png"; break;
->>>>>>> 7a38a33f5b3def76c7471de6dbc07d5049106da7
-
+      weather_img.src = "./weatherimg/sunny-removebg-preview.png"; break;
   }
 }
 
